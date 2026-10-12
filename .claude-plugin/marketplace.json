@@ -1,0 +1,14 @@
+{
+  "name": "figma-anatomy-skill",
+  "description": "Figma component anatomy skill for Claude Code",
+  "owner": {
+    "name": "kirilly2281"
+  },
+  "plugins": [
+    {
+      "name": "figma-component-anatomy",
+      "source": "./plugins/figma-component-anatomy",
+      "description": "Component anatomy pages in Figma: annotations, Specs and Usage built through the use_figma tool."
+    }
+  ]
+}
