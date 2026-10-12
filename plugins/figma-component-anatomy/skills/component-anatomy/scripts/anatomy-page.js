@@ -90,8 +90,8 @@ function specRow(name, cells, header) {
   const [dot, nm, token, value] = cells;
   r.appendChild(dot); fixWidth(dot, 16); dot.textAutoResize = 'HEIGHT';
   r.appendChild(nm); nm.layoutSizingHorizontal = 'FILL'; nm.textAutoResize = 'HEIGHT';
-  r.appendChild(token); fixWidth(token, 280); token.layoutSizingVertical = 'HUG';
-  r.appendChild(value); fixWidth(value, 140); value.textAutoResize = 'HEIGHT';
+  r.appendChild(token); fixWidth(token, 240); token.layoutSizingVertical = 'HUG';
+  r.appendChild(value); fixWidth(value, 180); value.textAutoResize = 'HEIGHT';
   return r;
 }
 function tokenCell(content) { const c = autoFrame('HORIZONTAL', 'Token', 0); c.counterAxisAlignItems = 'CENTER'; c.appendChild(content); return c; }
