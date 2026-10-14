@@ -4,6 +4,17 @@
 
 An agent skill that builds **component anatomy pages** in Figma: the component at 2× with annotations, a Specs table and Usage guidelines. Annotations follow one strict standard and are drawn by scripts, so every page looks the same and no labels collide.
 
+![One anatomy block: annotated example and Specs table](docs/preview-block.png)
+
+<details>
+<summary>Full generated page (4 examples, Specs, Usage)</summary>
+
+![Generated anatomy page for a button](docs/preview-page.png)
+
+</details>
+
+*Screenshots come from a real run of the scripts on a button component; token names and colours are placeholders.*
+
 - **Pink** — paddings, gaps, height and width (`#E8457D`)
 - **Blue** — text and icon sizes (`#1F6BEB`)
 - Values sit in pills, no numbered callouts

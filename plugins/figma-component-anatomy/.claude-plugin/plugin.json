@@ -1,7 +1,7 @@
 {
   "name": "figma-component-anatomy",
   "description": "Component anatomy pages in Figma: pink spacing and size annotations, blue text and icon sizes, Specs table and Usage, built by Plugin API scripts through the use_figma tool.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "kirilly2281"
   },

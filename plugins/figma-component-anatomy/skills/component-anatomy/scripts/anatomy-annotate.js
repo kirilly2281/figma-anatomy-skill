@@ -78,6 +78,7 @@ function kindFor(name, token, value, over) {
   if (over && over[name]) return over[name];
   if (/^#[0-9a-f]{3,8}$/i.test((value || '').trim())) return 'grey';
   if (/^(Heading|Body|Label|Caption)\//i.test(token || '')) return 'blue';
+  if (/(padding|gap|spacing|margin|offset|height|width|radius|stroke|ring)/i.test(name)) return 'pink';   // spacing words win over "icon / text"
   if (/(icon|label|caption|value|placeholder|text|font|typograph|loader|number|title|separator)/i.test(name)) return 'blue';
   if (/(color|colour|fill|background|glass)/i.test(name)) return 'grey';
   return 'pink';
